@@ -9,7 +9,12 @@
 
 ## API
 
-   
+  	var delay = require('delay');
+  	var delayCall = delay(1000);
+
+  	delayedCall(function() {
+  	  console.log('hej! one second later');
+  	});
 
 ## License
 
