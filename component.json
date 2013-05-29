@@ -1,0 +1,14 @@
+{
+  "name": "delay",
+  "repo": "kewah/delay",
+  "description": "Delay a function call (partial application)",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
