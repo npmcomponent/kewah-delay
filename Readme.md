@@ -1,5 +1,6 @@
 
-# delay
+# delay [![Build Status](https://travis-ci.org/kewah/delay.png?branch=master)](https://travis-ci.org/kewah/delay)
+[![browser support](https://ci.testling.com/kewah/delay.png)](https://ci.testling.com/kewah/delay)
 
   Delay a function call (partial application)
 
@@ -10,9 +11,9 @@
 ## API
 
   	var delay = require('delay');
-  	var delayedCall = delay(1000);
+  	var delayCall = delay(1000);
 
-  	delayedCall(function() {
+  	delayCall(function() {
   	  console.log('hej! one second later');
   	});
 
