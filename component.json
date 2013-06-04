@@ -2,7 +2,7 @@
   "name": "delay",
   "repo": "kewah/delay",
   "description": "Delay a function call (partial application)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [],
   "dependencies": {},
   "development": {},
