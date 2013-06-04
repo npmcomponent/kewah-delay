@@ -7,7 +7,7 @@ describe('delay()', function() {
 
     delay(1000)(function() {
       var delta = Date.now() - d;
-      assert(delta > 1000 && delta < 1020);
+      assert(delta >= 1000);
       done();
     });
   });
