@@ -1,8 +1,15 @@
 {
   "name": "delay",
   "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kewah/delay.git"
+  },
   "devDependencies": {
     "mocha": "1.10.0"
+  },
+  "scripts": {
+    "test": "make test"
   },
   "testling": {
     "browsers": [
